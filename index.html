@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JankenAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>じゃんけんAI</h1>
+
+    <p id="score">勝ち: 0 引分: 0 負け: 0</p>
+    
+    <p id="ai-talk"></p>
+
+    <div id="player-buttons">
+        <button onclick="playGame('グー')">✊ グー</button>
+        <button onclick="playGame('チョキ')">✌️ チョキ</button>
+        <button onclick="playGame('パー')">🖐️ パー</button>
+    </div>
+
+    <p id="result">-</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
