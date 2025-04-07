@@ -1,2 +1,2 @@
-# tangentkoh.github.io
+# jankensample
 じゃんけん
